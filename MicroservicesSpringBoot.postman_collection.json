@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "ad2b07a0-ab81-496d-bc5d-885fee025f61",
+		"name": "MicroservicesSpringBoot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12684779"
+	},
+	"item": [
+		{
+			"name": "01-ProductsMicroservice",
+			"item": [
+				{
+					"name": "ProductsAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8001/list",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"list"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ProductById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8001/view/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8001",
+							"path": [
+								"view",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "02-ItemsMicroservice",
+			"item": [
+				{
+					"name": "ItemsAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8002/list",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"list"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ItemsByIdAndQuantity",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8002/view/2/quantity/4000",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8002",
+							"path": [
+								"view",
+								"2",
+								"quantity",
+								"4000"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

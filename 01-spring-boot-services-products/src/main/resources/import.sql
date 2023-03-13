@@ -1,0 +1,10 @@
+INSERT INTO products (name, price, created_at) VALUES ('Bar Mix - Lime', 100, NOW());
+INSERT INTO products (name, price, created_at) VALUES ('Oregano - Dry, Rubbed', 300, NOW());
+INSERT INTO products (name, price, created_at) VALUES ('Pepper - Paprika, Hungarian', 4000, NOW());
+INSERT INTO products (name, price, created_at) VALUES ('Beef - Bresaola', 2000, NOW());
+INSERT INTO products (name, price, created_at) VALUES ('Wine - Pinot Grigio Collavini', 800, NOW());
+INSERT INTO products (name, price, created_at) VALUES ('Napkin - Beverge, White 2 - Ply', 500, NOW());
+INSERT INTO products (name, price, created_at) VALUES ('Appetizer - Southwestern', 6600, NOW());
+INSERT INTO products (name, price, created_at) VALUES ('Baking Powder', 1200, NOW());
+INSERT INTO products (name, price, created_at) VALUES ('Apron', 2200, NOW());
+INSERT INTO products (name, price, created_at) VALUES ('Squid - U - 10 Thailand', 5250, NOW());

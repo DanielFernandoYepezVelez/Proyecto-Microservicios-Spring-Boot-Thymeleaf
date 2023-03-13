@@ -15,30 +15,19 @@ import com.learning.microservices.springboot.app.products.models.service.IProduc
 
 @RestController
 public class ProductController {
-	
-	//@Autowired
-	//private Environment env;
-	
-	@Value("${server.port}")
-	private Integer port;
-	
 	@Autowired
 	private IProductService productService;
 	
 	@GetMapping("/list")
 	public List<Product> list() {
-		return productService.findAll().stream().map(product -> {
-			//product.setPort(Integer.parseInt(env.getProperty("local.server.port")));
-			product.setPort(port);
-			return product;
-		}).collect(Collectors.toList());
+		return productService.findAll();
 	}
 	
 	@GetMapping("/view/{id}")
 	public Product details(@PathVariable Long id) {
 		Product product = productService.findById(id);
 		//product.setPort(Integer.parseInt(env.getProperty("local.server.port")));
-		product.setPort(port);
+		//product.setPort(port);
 		
 		/* try {
 			Thread.sleep(2000L);

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/00-spring-boot-services-items/01-spring-boot-services-items.iml" filepath="$PROJECT_DIR$/00-spring-boot-services-items/01-spring-boot-services-items.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-spring-boot-services-products/01-spring-boot-services-products.iml" filepath="$PROJECT_DIR$/01-spring-boot-services-products/01-spring-boot-services-products.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-spring-boot-service-eureka-server/02-spring-boot-service-eureka-server.iml" filepath="$PROJECT_DIR$/02-spring-boot-service-eureka-server/02-spring-boot-service-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Proyecto-Microservicios-Spring-Boot-Thymeleaf.iml" filepath="$PROJECT_DIR$/.idea/Proyecto-Microservicios-Spring-Boot-Thymeleaf.iml" />
+    </modules>
+  </component>
+</project>

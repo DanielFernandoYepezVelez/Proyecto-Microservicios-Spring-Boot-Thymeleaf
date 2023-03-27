@@ -32,7 +32,7 @@ public class ProductServiceImplement implements IProductService {
 
 		products.stream().peek(product -> {
 			product.setPort(Integer.parseInt(Objects.requireNonNull(env.getProperty("local.server.port"))));
-			product.setPort(port);
+			//product.setPort(port);
 		}).toList();
 
 		return products;

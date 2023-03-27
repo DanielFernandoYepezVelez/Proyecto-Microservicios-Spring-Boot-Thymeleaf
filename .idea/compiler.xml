@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="01-spring-boot-services-products" />
-        <module name="01-spring-boot-services-items" />
         <module name="02-spring-boot-service-eureka-server" />
+        <module name="01-spring-boot-services-items" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
